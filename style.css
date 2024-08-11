@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 500px;
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    align-content: center;
+    text-align: center;
+}
+
+header{
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+    gap: 15px;
+    align-items: center;
+}
+header p{
+    cursor: pointer;
+}
+header p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+header i:hover{
+    cursor: pointer;
+    color: #1a73e8;
+}
+button{
+    background-color: #1a73e8;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    margin-left: 10px;
+    cursor: pointer;
+}
+/* Header END */
+
+.mainBody img{
+    margin-bottom: 25px;
+}
+.searchBox i{
+    align-content: center;
+    padding-left: 10px;
+}
+.searchBox :nth-child(4){
+ margin-right: 15px;
+}
+.searchBox{
+    background-color: rgb(211, 207, 207);
+    height: 40px;
+    width:70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: space-evenly;
+    border: 1px solid rgb(207, 201, 201);
+    border-radius: 25px;
+    box-shadow: 1px 10px 20px 0px rgb(180, 180, 182);
+
+}
+
+.searchBox input{
+    border: none;
+    padding: 10px;
+    width: 80%;
+    background-color: transparent;
+    border-radius:25px ;
+    margin: auto;
+
+}
+.searchBox input:focus {
+    outline: none;
+    border: none;
+}
+footer{
+    background-color:#f2f2f2 ;
+    /* padding: 10px; */
+}
+hr{
+    width: 100%;
+    margin: 10px 0px;
+    width: 100%;
+    
+}
+.mainFooter{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+.footerBangladesh{
+    padding: 10px;
+    margin-left: 10px;
+}
+
+
+.FooterFlex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.FooterItem p{
+    margin-left: 10px;
+    cursor: pointer;
+}
+.FooterItem p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+/* !Responsive */
+@media (max-width: 768px){
+    .mainFooter{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .searchBox{
+        width: 100%;
+    }
+}
